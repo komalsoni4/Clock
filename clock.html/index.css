@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(165, 42, 42, 0.712);
+}
+#clockcontainer{
+   background:  url("clockimg.jpg") no-repeat ;
+    height: 40vw;
+    width:50vw;
+    /* image will be fixwd in responsive position in phone or any screen */
+    background-size: 100%;
+  margin: auto; 
+  margin-top: 60px;
+  /* position: relative;  */
+  /* position relative se responsive bnti hai website */
+  /* margin auto ne iage ko center kr diya */
+  border-radius: 40px;
+}
+
+#hour, #min, #sec{
+    position :absolute;
+    background-color: black;
+    border-radius: 12px;
+    margin-top: 80px;
+      /* so that ow box ko uper niche krn pr change na ho */
+}
+#hour{
+   
+    height: 80px;
+    width: 1.5%;
+    left: 380.5px;
+    top: 74.9px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* taki pin bottom se rotate kare */
+}
+#min{
+    height: 130px;
+    width: 1%;
+    left: 380.5px;
+    top: 25px;
+    transform-origin: bottom;
+    opacity: 0.8;
+   
+}
+#sec{
+    height: 65px;
+    width: 0.5%;
+    left: 382.8px;
+    top: 89.9px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+}
